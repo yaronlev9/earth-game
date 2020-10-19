@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import axios from 'axios';
 import { Map, GoogleApiWrapper, Marker, Circle} from 'google-maps-react';
 import mapStyles from './mapStyles.json';
 import cities from './cities.json';
@@ -140,6 +139,6 @@ render() {
 }
 
 export default GoogleApiWrapper({
-  apiKey: "Enter you key"
+  apiKey: "Enter your key"
 
 })(MapContainer);
