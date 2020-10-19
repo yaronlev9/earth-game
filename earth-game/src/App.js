@@ -140,5 +140,6 @@ render() {
 }
 
 export default GoogleApiWrapper({
-  apiKey: "Enter key"
+  apiKey: "Enter you key"
+
 })(MapContainer);
